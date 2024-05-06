@@ -8,10 +8,11 @@ import friend7 from '../images/friend7.jpg';
 import friend8 from '../images/friend8.jpg';
 import friend9 from '../images/friend9.jpg';
 import {characters} from "./characters.tsx";
+import {Item} from "./types.ts";
 
 export const friends = [friend1, friend2, friend3, friend4, friend5, friend6, friend7, friend8, friend9];
 
-export const navItems = [{
+export const navItems:Item[] = [{
     title: "Home",
     route: "home"
 }, {

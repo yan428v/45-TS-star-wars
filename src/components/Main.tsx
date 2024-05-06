@@ -1,4 +1,3 @@
-import React from 'react';
 import {navItems} from "../utils/constants.tsx";
 import AboutMe from "./AboutMe.tsx";
 import StarWars from "./StarWars.tsx";

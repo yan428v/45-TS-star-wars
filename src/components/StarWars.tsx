@@ -1,4 +1,3 @@
-import React from 'react';
 import styles from '../css/farGalaxy.module.css';
 import {navItems} from "../utils/constants.tsx";
 import {withHeroId} from "../hoc/withHeroId.tsx";

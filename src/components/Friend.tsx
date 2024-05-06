@@ -1,9 +1,14 @@
-import React from 'react';
 import {useNavigate} from "react-router-dom";
 import {navItems} from "../utils/constants.tsx";
 import {characters} from "../utils/characters.tsx";
 
-const Friend = ({friend,pos}) => {
+
+interface Props {
+    friend: string,
+    pos: number
+}
+
+const Friend : Props = ({friend,pos}) => {
     const navigate = useNavigate();
     let styles = "col-4 p-1";
     if(pos===7){

@@ -1,4 +1,4 @@
-import React, {useContext} from 'react';
+import {useContext} from 'react';
 import Navigation from "./Navigation.tsx";
 import {UserContext} from "../utils/useContext.tsx";
 import {characters} from "../utils/characters.tsx";

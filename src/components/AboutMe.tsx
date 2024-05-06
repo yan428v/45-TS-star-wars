@@ -11,7 +11,7 @@ const AboutMe = () => {
     const {hero: heroId} = useContext(UserContext)
 
     useEffect(() => {
-        const hero = JSON.parse(localStorage.getItem(heroId)!); // todo problem?
+        const hero = JSON.parse(localStorage.getItem(heroId)!); // todo problem
         if (hero && ((Date.now() - hero.time) < period)) {
             setHero(hero.payload);
         } else {

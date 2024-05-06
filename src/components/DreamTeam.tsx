@@ -1,5 +1,4 @@
-import React, {useContext} from 'react';
-import {friends} from "../utils/constants.tsx";
+import {useContext} from 'react';
 import Friend from "./Friend.tsx";
 import {characters} from "../utils/characters.tsx";
 import {UserContext} from "../utils/useContext.tsx";

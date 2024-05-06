@@ -19,3 +19,10 @@ export interface Character {
 export interface Characters {
     [key: string]: Character;
 }
+
+export interface Item {
+    item: {
+        title:string,
+        route: string
+    }
+}

@@ -1,5 +1,4 @@
-import React, {useContext} from 'react';
-import main from "../images/main.jpg";
+import {useContext} from 'react';
 import {UserContext} from "../utils/useContext.tsx";
 import {characters} from "../utils/characters.tsx";
 
