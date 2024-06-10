@@ -8,6 +8,7 @@ interface Props {
     pos: number
 }
 
+
 const Friend : Props = ({friend,pos}) => {
     const navigate = useNavigate();
     let styles = "col-4 p-1";
