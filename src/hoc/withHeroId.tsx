@@ -16,7 +16,6 @@ export const withHeroId =(route) => (Component)=>(props)=>{
             changeMainHero(heroId);
         }
     },[heroId])
-
     return (
         <Component {...props}/>
     )
